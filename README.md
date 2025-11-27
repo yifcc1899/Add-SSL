@@ -2,6 +2,9 @@
 
 一个基于 Cloudflare Workers 的轻量级 Web 工具，支持为任意接入 Cloudflare 的域名快速启用 Universal SSL 证书。支持自定义域名、证书颁发机构选择、自动续期，适合自建服务、内网穿透、IPv6 域名等场景。
 
+根据老王的cf项目核心，定制了一个sni部署的版本，代码是_worker.js这个。部署完成网页是addssl，需手动配置节点参数
+节点path为SSpath变量或uuid开头，示例：/5dc15e15-f285-4a9d-959b-0e4fbdd77b63/?ed=2560 带proxyip的示例：/5dc15e15-f285-4a9d-959b-0e4fbdd77b63/?ed=2560&proxyip=xxxx 小火箭可去掉?ed=2560& 来自定义proxyip或全局出站
+
 觉得有用点个收藏&Fork
 
 <img width="508" height="630" alt="image" src="https://github.com/user-attachments/assets/faf88a99-f498-4a36-bc91-8ea5e7786c45" />
