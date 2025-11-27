@@ -1,4 +1,4 @@
-# 🌐 Add-SSL: 自动为 Cloudflare 域名添加 SSL 证书
+# 🌐 Add-SSL: 自动为 Cloudflare 域名添加 SSL 证书&集成老王sni
 
 一个基于 Cloudflare Workers 的轻量级 Web 工具，支持为任意接入 Cloudflare 的域名快速启用 Universal SSL 证书。支持自定义域名、证书颁发机构选择、自动续期，适合自建服务、内网穿透、IPv6 域名等场景。
 
