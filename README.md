@@ -5,7 +5,8 @@
 ##SNI版本
 
 根据老王的cf项目核心，定制了一个sni部署的版本，代码是_worker.js这个。部署完成网页是addssl
-可配置节点参数
+
+vless需配置节点参数
 节点path为path变量或uuid开头，示例：/5dc15e15-f285-4a9d-959b-0e4fbdd77b63/?ed=2560 带proxyip的示例：/5dc15e15-f285-4a9d-959b-0e4fbdd77b63/?ed=2560&proxyip=xxxx 小火箭可去掉?ed=2560& 来自定义proxyip或全局出站
 
 觉得有用点个收藏&Fork
